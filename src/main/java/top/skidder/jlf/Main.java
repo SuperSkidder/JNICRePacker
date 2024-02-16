@@ -24,6 +24,8 @@ public class Main {
     public static String loaderCls = "";
 
     public static void main(String[] args) throws Exception {
+        System.out.println("[JNIC Loader RePacker] v1.0");
+
         String s = userInput.input("Enter the path to the jar file");
 
         JarFileHelper input = new JarFileHelper(new File(s));
