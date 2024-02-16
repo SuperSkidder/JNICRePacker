@@ -1,10 +1,10 @@
-import jdk.internal.org.objectweb.asm.tree.AbstractInsnNode;
+package top.skidder.jlf.asm.visitors;
+
 import org.objectweb.asm.*;
 
-import java.io.IOException;
 import java.io.InputStream;
 
-public class BytesReader {
+public class AuthVisitor {
 
 
     public static Integer[] getBytes(InputStream stream) throws Exception {
