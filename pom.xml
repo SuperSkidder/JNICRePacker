@@ -13,8 +13,8 @@
 
 
     </repositories>
-    <groupId>org.example</groupId>
-    <artifactId>JNICExtract</artifactId>
+    <groupId>top.skidder</groupId>
+    <artifactId>JNICRePacker</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
